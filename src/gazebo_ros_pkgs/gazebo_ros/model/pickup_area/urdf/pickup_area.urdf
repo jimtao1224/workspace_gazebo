@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="pickup_area">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-7.49469414002535 2.57385955814859 3.05848092130194"
+        rpy="0 0 0" />
+      <mass
+        value="15637.464947411" />
+      <inertia
+        ixx="53705.8901400816"
+        ixy="83.0888914154327"
+        ixz="-6.37517005647859"
+        iyy="577377.675822429"
+        iyz="8359.72717626822"
+        izz="585948.374563859" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pickup_area/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pickup_area/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

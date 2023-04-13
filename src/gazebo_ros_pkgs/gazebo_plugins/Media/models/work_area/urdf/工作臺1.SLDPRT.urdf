@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="工作臺1.SLDPRT">
+  <link
+    name="work_area.SLDPRT">
+    <inertial>
+      <origin
+        xyz="-0.028538 -0.010759 0.093417"
+        rpy="0 0 0" />
+      <mass
+        value="0.052805" />
+      <inertia
+        ixx="1.794E-05"
+        ixy="-6.319E-07"
+        ixz="-2.66900000000004E-09"
+        iyy="2.6931E-05"
+        iyz="-6.26960000000896E-10"
+        izz="1.2301E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://work_area.SLDPRT/meshes/work_area.SLDPRT.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+        <texture
+          filename="package://work_area.SLDPRT/textures/" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://work_area.SLDPRT/meshes/work_area.SLDPRT.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

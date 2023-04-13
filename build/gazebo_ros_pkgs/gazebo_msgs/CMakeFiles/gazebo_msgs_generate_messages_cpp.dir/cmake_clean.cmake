@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/ApplyBodyWrench.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/ApplyJointEffort.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/BodyRequest.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/ContactState.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/ContactsState.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/DeleteLight.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/DeleteModel.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/GetJointProperties.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/GetLightProperties.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/GetLinkProperties.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/GetLinkState.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/GetModelProperties.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/GetModelState.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/GetPhysicsProperties.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/GetWorldProperties.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/JointRequest.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/LinkState.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/LinkStates.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/ModelState.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/ModelStates.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/ODEJointProperties.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/ODEPhysics.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/PerformanceMetrics.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/SensorPerformanceMetric.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/SetJointProperties.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/SetJointTrajectory.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/SetLightProperties.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/SetLinkProperties.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/SetLinkState.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/SetModelConfiguration.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/SetModelState.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/SetPhysicsProperties.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/SpawnModel.h"
+  "/home/jim/workspace_gazebo/devel/include/gazebo_msgs/WorldState.h"
+  "CMakeFiles/gazebo_msgs_generate_messages_cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="ground">
+  <link
+    name="ground2">
+    <inertial>
+      <origin
+        xyz="0.31788 -0.005 0.057574"
+        rpy="0 0 0" />
+      <mass
+        value="1.69" />
+      <inertia
+        ixx="0.0095344"
+        ixy="2.2448E-14"
+        ixz="3.4786E-13"
+        iyy="0.069022"
+        iyz="8.42521794460003E-15"
+        izz="0.059516" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://gazebo_ros/model/ground2/meshes/ground2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+        <texture
+          filename="package://gazebo_ros/model/ground2/textures/" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://gazebo_ros/model/ground2/meshes/ground2.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>
